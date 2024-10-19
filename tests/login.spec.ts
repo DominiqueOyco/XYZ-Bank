@@ -32,3 +32,7 @@ test('Verify bank manager login CTA directs user to the bank manager page', asyn
     await page.waitForTimeout(500)
     await expect(page.url()).toBe('https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager')
 })
+
+test('', async ({ page }) => {
+
+})
